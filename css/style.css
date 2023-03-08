@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0; 
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .bgOrange {
@@ -11,6 +12,36 @@
     display: flex;
 }
 
-.marginCenter {
+.marginToCenter {
     margin: 0 270px;
+}
+
+.heightHead {
+    height: 70px;
+}
+
+.logo {
+    height: 32px;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.flexCenter {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.colorWhite {
+    color: white;    
+}
+
+.colorWhite i {
+margin-right: 1em;
+
+}
+
+.noUnderline {
+    text-decoration: none;
 }
