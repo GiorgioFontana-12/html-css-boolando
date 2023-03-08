@@ -67,19 +67,36 @@ header {
 
 main {
     margin-top: 100px;
-    margin-bottom: 110px;
+
 }
 
 .paddingBottom {
     padding-bottom: 4rem;
 }
 
-img {
+.hover :hover .imgPrimaria {
+    transition-duration: 5ms;
+    display: none;
+
+}
+.hover :hover .imgSecondaria {
+    transition-duration: 5ms;
+    display: block;
+
+}
+
+
+.imgPrimaria {
     width: 100% ;
     display: block;
 }
 
-.fronzoli {
+.imgSecondaria {
+    width: 100%;
+    display: none;
+}
+
+.posRelative {
     position: relative;
 }
 
@@ -130,13 +147,6 @@ img {
     width: calc(100% / 3 - 25px);
 }
 
-.imgPrimaria {
-
-}
-
-.imgSecondaria {
-    display: none;
-}
 
 .logo {
     height: 32px;
@@ -167,9 +177,3 @@ h4 {
 
 
 
-footer {
-    position: fixed;
-    z-index: 999;
-    bottom: 0;
-    width: 100%;
-}
