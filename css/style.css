@@ -20,17 +20,21 @@
     height: 70px;
 }
 
-.logo {
-    height: 32px;
-}
 
 .logo img {
     height: 100%;
 }
 
 .flexCenter {
-    justify-content: space-between;
     align-items: center;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.wrap {
+    flex-wrap: wrap;
 }
 
 .colorWhite {
@@ -38,10 +42,39 @@
 }
 
 .colorWhite i {
-margin-right: 1em;
+    margin-left: 1em;
 
 }
 
 .noUndeline {
     text-decoration: none;
+}
+
+main {
+    margin-top: 60px;
+}
+
+.paddingBottom {
+    padding-bottom: 4rem;
+}
+
+img {
+    width: 100% ;
+}
+
+
+.ridimImg {
+    width: calc(100% / 3 - 25px);
+}
+
+.imgPrimaria {
+
+}
+
+.imgSecondaria {
+    display: none;
+}
+
+.logo {
+    height: 32px;
 }
