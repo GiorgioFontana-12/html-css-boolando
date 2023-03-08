@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+.bgOrange {
+    background-color: #FF6900;
+}
+
+.flex {
+    display: flex;
+}
+
+.marginCenter {
+    margin: 0 270px;
+}
