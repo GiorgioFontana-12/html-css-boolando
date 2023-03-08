@@ -8,6 +8,10 @@
     background-color: #FF6900;
 }
 
+.bgBlack {
+    background-color: black;
+}
+
 .flex {
     display: flex;
 }
@@ -43,6 +47,8 @@
 
 .colorWhite i {
     margin-left: 1em;
+    height: 1rem;
+    width: 1rem;
 
 }
 
@@ -77,4 +83,12 @@ img {
 
 .logo {
     height: 32px;
+}
+
+.height110 {
+    height: 110px;
+}
+
+.height1Rem {
+    height: 1rem;
 }
